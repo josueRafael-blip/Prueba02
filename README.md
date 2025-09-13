@@ -1,34 +1,17 @@
-# 🔺 Vértices de Figuras Geométricas
+# 🎯 Simulador de Apuestas Deportivas (Ficticio)
 
-Una aplicación web interactiva creada con **Streamlit** que permite calcular y visualizar los **vértices de figuras geométricas** regulares (como triángulos, cuadrados, pentágonos, etc.). El usuario puede seleccionar hasta **5 figuras** y obtener los vértices en coordenadas 2D.
+Este proyecto es una app web desarrollada con **Streamlit** que permite simular apuestas deportivas de forma ficticia. Puedes seleccionar eventos, realizar apuestas y generar una imagen de tu boleta virtual.
 
----
+## ⚙️ Funcionalidades
 
-## ✨ Funcionalidades
+- Selección de eventos deportivos simulados.
+- Registro de apuestas (equipo, monto, cuota, posible ganancia).
+- Visualización en tabla estilo "boleta".
+- Generación de imagen de la boleta (en formato gráfico).
+- Todo funciona localmente (no hay apuestas reales involucradas).
 
-- ✅ Selección de hasta 5 figuras geométricas al mismo tiempo.
-- 📍 Cálculo automático de los vértices.
-- 📊 Visualización gráfica de las figuras.
-- 🧮 Coordenadas centradas en el origen `(0, 0)` para facilitar la comprensión.
-
----
-
-## 📐 Figuras disponibles
-
-- 🔺 Triángulo equilátero  
-- ◼️ Cuadrado  
-- ▭ Rectángulo  
-- ⬟ Pentágono regular  
-- ⬡ Hexágono regular  
-
-> Todas las figuras (excepto el rectángulo) se consideran **regulares**.
-
----
-
-## 🚀 Cómo ejecutar la app localmente
-
-### 1. Clona este repositorio
+## 🚀 Ejecutar la app
 
 ```bash
-git clone https://github.com/tu_usuario/vertices-figuras-streamlit.git
-cd vertices-figuras-streamlit
+pip install -r requirements.txt
+streamlit run apuestas_simuladas.py
